@@ -8,16 +8,155 @@
 </head>
 <body>
     
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+  <div class="container">
+    <form>
+
+
+
+
+  <!-- START OF PAGE 1 -->
+
+      <!-- Basic Details Section-->
+       <h2>Basic Details</h2>
+
+       <!-- Image Upload -->
+        <div class="d-flex flex-column align-items-center border border-secondary bg-light">
+          <a href="" class="">
+            <img src="./assets/icons/image-upload.png" alt="">
+          </a>
+          <p>Upload Image</p>
+          <p>PNG, JPG Files are allowed</p>
+        </div>
+
+      <!-- Name Information Row -->
+       <div class="row">
+        <div class="col">Salutation*</div>
+        <div class="col">First Name</div>
+        <div class="col">Last Name</div>
+       </div>
+       <div class="row">
+        <div class="col">
+          <select>
+            <option selected>Choose here</option>
+            <option>Mr.</option>
+            <option>Ms.</option>
+          </select>
+          <input type="text" placeholder="John">
+          <input type="text" placeholder="Doe">
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+       </div>
+
+       <!-- Email and Mobile Number Row -->
+       <div class="row">
+         <div class="col"><label>Email Addresss*</label></div>
+         <div class="col"><label>Phone Number*</label></div>
+       </div>
+       <div class="row">
+         <div class="col">
+           <input type="text" placeholder="mail@simplemail.com">
+           <input type="number" placeholder="Enter Mobile Number">
+         </div>
+       </div>
+
+
+      <!-- DOB and Gender Row -->
+       <div class="row">
+        <div class="col"><label>Date of Birth*</label></div>
+        <div class="col"><label>Gender*</label></div>
+       </div>
+       <div class="row">
+        <div class="col">
+          <input type="date">
+        </div>
+        <div class="col">
+          <input type="radio" >
+          <label>Male</label>
+          <input type="radio" >
+          <label>Female</label>
+        </div>
+       </div>
+
+
+         <!-- Address -->
+      <div class="row">
+        <div class="col">
+          <label>Address*</label>
+          <input type="text">
+        </div>
       </div>
+
+
+      <!-- Location Details Grid -->
+       <div class="row">        <!--location row 1(label)-->
+        <div class="col">
+          <label>Country*</label>  
+        </div>
+        <div class="col">
+          <label>State*</label>
+        </div>
+      </div>
+
+      <div class="row">          <!--location row 2(input controls)-->
+        <div class="col">
+          <select>
+              <option selected>select country</option>
+              <option>India</option>
+              <option>United States</option>
+              <option>United Arab Emirates</option>
+              <option>Japan</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <select>
+              <option selected>select state</option>
+              <option>State A</option>
+              <option>State B</option>
+              <option>State C</option>
+              <option>State D</option>
+          </select>
+        </div>
+  
+      <div class="row">        <!--location row 3(label)-->
+        <div class="col">
+          <label>City*</label>
+        </div>
+        <div class="col">
+          <label>Pin/Zip*</label>
+        </div>
+      </div>
+
+      <div class="row">          <!--location row 4(input controls)-->
+        <div class="col">
+          <select>
+              <option selected>select city</option>
+              <option>City A</option>
+              <option>City B</option>
+              <option>City C</option>
+              <option>City D</option>
+          </select>
+        </div>
+        <div class="col">
+          <input type="number" placeholder="enter zip/pin code">
+        </div>
+      </div>
+        
+
+  <!-- END OF PAGE 1 -->
+  
+  <!-- START OF PAGE 2 -->
+      
+
+
+
+
+
+      
+    </form>
+  </div> <!-- .container-ends-here-->
+
 
 
 
