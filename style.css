@@ -1,3 +1,9 @@
 .custom-text {
     color: rgb(43, 54, 116);
 }
+
+.upload-box {
+    border: 0.1rem dashed;
+    border-color: rgb(178, 186, 208);
+    border-radius: 0.5rem;
+}
