@@ -17,10 +17,10 @@
 
   <!-- START OF PAGE 1 -->
 
-      <!-- Basic Details Section-->
+                    <!-- HEADING SECTION-->
        <h2 class="mt-3 mb-3 custom-text">Basic Details</h2>
 
-       <!-- Image Upload -->
+                     <!-- IMAGE UPLOAD SECTION -->
         <div class="upload-box d-flex flex-column align-items-center w-100 mt-3 mb-3 p-4">
           <a href="" class="">
             <img src="./assets/icons/image-upload.png" alt="">
@@ -29,49 +29,54 @@
           <p class="text-secondary">PNG, JPG Files are allowed</p>
         </div>
 
-      <!-- Name Information Row -->
-       <div class="row mt-3 custom-text">
-        <div class="col">Salutation<span class="text-danger mx-1">*</span></div>
-        <div class="col">First Name<span class="text-danger mx-1">*</span></div>
-        <div class="col">Last Name<span class="text-danger mx-1">*</span></div>
-       </div>
-       <div class="row">
-        <div class="col">
+                      <!-- NAME INFORMATION SECTION -->
+       <div class="row custom-text">
+        <!-- Salutation Label -->
+        <div class="col-12">Salutation<span class="text-danger mx-1">*</span></div>
+        <!-- Salutation Selection (control)-->
+        <div class="col-12 mb-3">
           <select class="form-select">
             <option selected>Choose here</option>
             <option>Mr.</option>
             <option>Ms.</option>
           </select>
-          <input type="text" placeholder="John" class="form-control">
-          <input type="text" placeholder="Doe" class="form-control">
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <!-- First Name Label -->
+        <div class="col-12">First Name<span class="text-danger mx-1">*</span></div>
+        <!-- First Name Selection (control)-->
+        <div class="col-12 mb-3"><input type="text" placeholder="John" class="form-control"></div>
+        <!-- Last Name Label -->
+        <div class="col-12">Last Name<span class="text-danger mx-1">*</span></div>
+        <!-- Last Name Selection (control)-->
+        <div class="col-12 mb-3"><input type="text" placeholder="Doe" class="form-control"></div>
        </div>
 
-       <!-- Email and Mobile Number Row -->
-       <div class="row mt-3 custom-text">
-         <div class="col"><label>Email Addresss<span class="text-danger mx-1">*</span></label></div>
-         <div class="col"><label>Phone Number<span class="text-danger mx-1">*</span></label></div>
-       </div>
-       <div class="row">
-         <div class="col">
-           <input type="text" placeholder="mail@simplemail.com" class="form-control">
-           <input type="number" placeholder="Enter Mobile Number" class="form-control">
-         </div>
-       </div>
-
-
-      <!-- DOB and Gender Row -->
-       <div class="row mt-3 custom-text">
-        <div class="col"><label>Date of Birth<span class="text-danger mx-1">*</span></label></div>
-        <div class="col"><label>Gender<span class="text-danger mx-1">*</span></label></div>
-       </div>
-       <div class="row">
-        <div class="col">
-          <input type="date">
+                      <!-- EMAIL AND MOBILE NUMBER SECTION -->
+       <div class="row custom-text">
+        <div class="col-12"><label>Email Addresss<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
+          <input type="text" placeholder="mail@simplemail.com" class="form-control">
         </div>
-        <div class="col">
+        <div class="col-12"><label>Phone Number<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
+          <input type="number" placeholder="Enter Mobile Number" class="form-control">
+        </div>
+       </div>
+
+
+                        <!-- DOB AND GENDER SECTION -->
+       <div class="row custom-text">
+        <div class="col-12"><label>Date of Birth<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
+            <input type="date" class="form-control">
+        </div>
+       </div>
+
+
+                        <!-- GENDER SECTION -->
+       <div class="row custom-text">
+        <div class="col-12"><label>Gender<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
           <div class="form-check-inline custom-font">
             <input type="radio" class="form-check-input" id="male" name="gender">
             <label class="custom-text form-check-label" for="male">Male</label>
@@ -82,27 +87,19 @@
        </div>
 
 
-         <!-- Address -->
-      <div class="row mt-3 custom-text">
-        <div class="col">
-          <label>Address<span class="text-danger mx-1">*</span></label>
+                      <!-- ADDRESS SECTION -->
+      <div class="row custom-text">
+        <div class="col-12"><label>Address<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
           <textarea rows="4" placeholder="Enter your permanent address" class="form-control"></textarea>
         </div>
       </div>
 
 
-      <!-- Location Details Grid -->
-       <div class="row mt-3 custom-text">        <!--location row 1(label)-->
-        <div class="col">
-          <label>Country<span class="text-danger mx-1">*</span></label>  
-        </div>
-        <div class="col">
-          <label>State<span class="text-danger mx-1">*</span></label>
-        </div>
-      </div>
-
-      <div class="row">          <!--location row 2(input controls)-->
-        <div class="col">
+                    <!-- ADDITIONAL LOCATION DETAILS -->
+      <div class="row custom-text">
+        <div class="col-12"><label>Country<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
           <select class="form-select">
               <option selected>select country</option>
               <option>India</option>
@@ -111,8 +108,8 @@
               <option>Japan</option>
           </select>
         </div>
-
-        <div class="col">
+        <div class="col-12"><label>State<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
           <select class="form-select">
               <option selected>select state</option>
               <option>State A</option>
@@ -121,18 +118,8 @@
               <option>State D</option>
           </select>
         </div>
-  
-      <div class="row custom-text">        <!--location row 3(label)-->
-        <div class="col">
-          <label>City<span class="text-danger mx-1">*</span></label>
-        </div>
-        <div class="col">
-          <label>Pin/Zip<span class="text-danger mx-1">*</span></label>
-        </div>
-      </div>
-
-      <div class="row custom-text">          <!--location row 4(input controls)-->
-        <div class="col">
+        <div class="col-12"><label>City<span class="text-danger mx-1">*</span></label></div>
+        <div class="col-12 mb-3">
           <select class="form-select">
               <option selected>select city</option>
               <option>City A</option>
@@ -141,11 +128,13 @@
               <option>City D</option>
           </select>
         </div>
-        <div class="col">
-          <input type="number" placeholder="enter zip/pin code">
+        <div class="col"><label>Pin/Zip<span class="text-danger mx-1">*</span></label>
+        <div class="col mb-3">
+          <input type="number" placeholder="Enter pin or zip code" class="form-control">
+        </div>
         </div>
       </div>
-        
+
 
   <!-- END OF PAGE 1 -->
   
