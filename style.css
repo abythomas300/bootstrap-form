@@ -22,18 +22,29 @@
 .save-button {
     background-color: #4318ff;
     color: #fff;
+    font-weight: bold;
 }
 .save-button:focus {
     background-color: #4318ff;
     color: #fff;
 }
+.save-button:hover {
+    background-color: #3306fb;
+    color: #fff;
+}
+
 
 .cancel-button {
     background-color: rgb(220, 220, 220);
     color: rgb(43, 54, 116);
+    font-weight: bold;
 }
 
 .cancel-button:focus {
     background-color: rgb(220, 220, 220);
+    color: rgb(43, 54, 116);
+}
+.cancel-button:hover {
+    background-color: rgb(181, 181, 181);
     color: rgb(43, 54, 116);
 }
