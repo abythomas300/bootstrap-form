@@ -20,11 +20,20 @@
 }
 
 .save-button {
-    background-color: rgb(43, 54, 116);
+    background-color: #4318ff;
+    color: #fff;
+}
+.save-button:focus {
+    background-color: #4318ff;
     color: #fff;
 }
 
 .cancel-button {
+    background-color: rgb(220, 220, 220);
+    color: rgb(43, 54, 116);
+}
+
+.cancel-button:focus {
     background-color: rgb(220, 220, 220);
     color: rgb(43, 54, 116);
 }
