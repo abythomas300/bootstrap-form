@@ -12,3 +12,9 @@
     border-radius: 0.5rem;
     background-color: #eef0f1;
 }
+
+.form-control:focus {
+    border-color: rgb(43, 54, 116);
+    border-width: 2px;
+    box-shadow: none;
+}
