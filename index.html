@@ -30,33 +30,42 @@
         </div>
 
                       <!-- NAME INFORMATION SECTION -->
-       <div class="row custom-text">
-        <!-- Salutation Label -->
-        <div class="col-12 form-label">Salutation<span class="text-danger mx-1">*</span></div>
-        <!-- Salutation Selection (control)-->
-        <div class="col-12 mb-3">
-          <select class="form-select">
-            <option selected>Choose here</option>
-            <option>Mr.</option>
-            <option>Ms.</option>
-          </select>
+      <div class="row custom-text">
+
+        <!-- Salutation column -->
+        <div class="col-12 col-md-4">
+          <div class="form-label">Salutation<span class="text-danger mx-1">*</span></div>
+          <div class="mb-3">
+            <select class="form-select">
+              <option selected>Choose here</option>
+              <option>Mr.</option>
+              <option>Ms.</option>
+            </select>
         </div>
-        <!-- First Name Label -->
-        <div class="col-12 form-label">First Name<span class="text-danger mx-1">*</span></div>
-        <!-- First Name Selection (control)-->
-        <div class="col-12 mb-3"><input type="text" placeholder="John" class="form-control"></div>
-        <!-- Last Name Label -->
-        <div class="col-12 form-label">Last Name<span class="text-danger mx-1">*</span></div>
-        <!-- Last Name Selection (control)-->
-        <div class="col-12 mb-3"><input type="text" placeholder="Doe" class="form-control"></div>
-       </div>
+        </div>
+
+        <!-- First Name column -->
+        <div class="col-12 col-md-8">
+          <div class="col-12 form-label">First Name<span class="text-danger mx-1">*</span></div>
+          <div class="col-12 mb-3"><input type="text" placeholder="John" class="form-control"></div>
+        </div>
+
+        <!-- Last Name Column -->
+        <div class="col-12">
+          <div class="form-label">Last Name<span class="text-danger mx-1">*</span></div>
+          <div class="mb-3"><input type="text" placeholder="Doe" class="form-control"></div>
+        </div>
+
+      </div>
 
                       <!-- EMAIL AND MOBILE NUMBER SECTION -->
        <div class="row custom-text">
-        <div class="col-12"><label class="form-label">Email Addresss<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-          <input type="text" placeholder="mail@simplemail.com" class="form-control">
-        </div>
+         <div class="col-12">
+            <div class="col"><label class="form-label">Email Addresss<span class="text-danger mx-1">*</span></label></div>
+          <div class="col-12 mb-3">
+            <input type="text" placeholder="mail@simplemail.com" class="form-control">
+          </div>
+         </div>
         <div class="col-12"><label class="form-label">Phone Number<span class="text-danger mx-1">*</span></label></div>
         <div class="col-12 mb-3">
           <input type="number" placeholder="Enter Mobile Number" class="form-control">
@@ -66,23 +75,22 @@
 
                         <!-- DOB AND GENDER SECTION -->
        <div class="row custom-text">
-        <div class="col-12"><label class="form-label">Date of Birth<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-            <input type="date" class="form-control" placeholder="Enter DOB">
+        <div class="col-12 col-md-6">
+          <div class="col"><label class="form-label">Date of Birth<span class="text-danger mx-1">*</span></label></div>
+          <div class="col mb-3">
+              <input type="date" class="form-control" placeholder="Enter DOB">
+          </div>
         </div>
-       </div>
-
-
-                        <!-- GENDER SECTION -->
-       <div class="row custom-text">
-        <div class="col-12"><label class="form-label">Gender<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-          <div class="form-check-inline custom-font">
-            <input type="radio" class="form-check-input" id="male" name="gender">
-            <label class="custom-text form-check-label" for="male">Male</label>
-            <input type="radio" class="form-check-input" id="female" name="gender">
-            <label class="custom-text form-check-label" for="female">Female</label>
-            </div>
+        <div class="col-12 col-md-6">
+          <div class="col"><label class="form-label">Gender<span class="text-danger mx-1">*</span></label></div>
+          <div class="mb-3">
+            <div class="form-check-inline custom-font">
+              <input type="radio" class="form-check-input" id="male" name="gender">
+              <label class="custom-text form-check-label" for="male">Male</label>
+              <input type="radio" class="form-check-input" id="female" name="gender">
+              <label class="custom-text form-check-label" for="female">Female</label>
+              </div>
+          </div>
         </div>
        </div>
 
@@ -98,40 +106,52 @@
 
                     <!-- ADDITIONAL LOCATION DETAILS -->
       <div class="row custom-text">
-        <div class="col-12"><label class="form-label">Country<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-          <select class="form-select">
-              <option selected>select country</option>
-              <option>India</option>
-              <option>United States</option>
-              <option>United Arab Emirates</option>
-              <option>Japan</option>
-          </select>
+
+        <div class="col-12 col-md-6">
+          <div class="col"><label class="form-label">Country<span class="text-danger mx-1">*</span></label></div>
+          <div class="col mb-3">
+            <select class="form-select">
+                <option selected>select country</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>United Arab Emirates</option>
+                <option>Japan</option>
+            </select>
+          </div>
         </div>
-        <div class="col-12"><label class="form-label">State<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-          <select class="form-select">
-              <option selected>select state</option>
-              <option>State A</option>
-              <option>State B</option>
-              <option>State C</option>
-              <option>State D</option>
-          </select>
+
+        <div class="col-12 col-md-6">
+          <div class="col"><label class="form-label">State<span class="text-danger mx-1">*</span></label></div>
+          <div class="col mb-3">
+            <select class="form-select">
+                <option selected>select state</option>
+                <option>State A</option>
+                <option>State B</option>
+                <option>State C</option>
+                <option>State D</option>
+            </select>
         </div>
-        <div class="col-12"><label class="form-label">City<span class="text-danger mx-1">*</span></label></div>
-        <div class="col-12 mb-3">
-          <select class="form-select">
-              <option selected>select city</option>
-              <option>City A</option>
-              <option>City B</option>
-              <option>City C</option>
-              <option>City D</option>
-          </select>
         </div>
-        <div class="col"><label class="form-label">Pin/Zip<span class="text-danger mx-1">*</span></label>
-        <div class="col mb-3">
-          <input type="number" placeholder="Enter pin or zip code" class="form-control">
+
+        <div class="col-12 col-md-6">
+          <div class="col-12"><label class="form-label">City<span class="text-danger mx-1">*</span></label></div>
+          <div class="col-12 mb-3">
+            <select class="form-select">
+                <option selected>select city</option>
+                <option>City A</option>
+                <option>City B</option>
+                <option>City C</option>
+                <option>City D</option>
+            </select>
+          </div>
         </div>
+
+        <div class="col-12 col-md-6">
+          <div class="col"><label class="form-label">Pin/Zip<span class="text-danger mx-1">*</span></label>
+            <div class="col mb-3">
+              <input type="number" placeholder="Enter pin or zip code" class="form-control">
+            </div>
+            </div>
         </div>
       </div>
 
@@ -221,10 +241,14 @@
   </div> <!-- .container-ends-here-->
 
   <div class="container mt-3 mb-3">
-    <div class="col-12">
-      <button type="button" class="w-100 mb-3 btn cancel-button">Cancel</button>
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-6">
+        <button type="button" class="w-100 btn cancel-button mb-3 p-md-4">Cancel</button>
+      </div>
+      <div class="col col-md-6">
+        <button type="button" class="w-100 btn save-button mb-3 p-md-4">Save Changes</button>
+      </div>
     </div>
-    <button type="button" class="w-100 btn save-button">Save Changes</button>
   </div>
 
 
