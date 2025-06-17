@@ -18,3 +18,13 @@
     border-width: 2px;
     box-shadow: none;
 }
+
+.save-button {
+    background-color: rgb(43, 54, 116);
+    color: #fff;
+}
+
+.cancel-button {
+    background-color: rgb(220, 220, 220);
+    color: rgb(43, 54, 116);
+}
