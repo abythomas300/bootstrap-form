@@ -14,7 +14,7 @@
 }
 
 .form-control:focus {
-    border-color: rgb(43, 54, 116);
+    border-color: #4318ff;
     border-width: 2px;
     box-shadow: none;
 }
